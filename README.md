@@ -12,6 +12,8 @@
 >  transferable to other Linux systems.
 > 
 > The video is on [YouTube](https://youtu.be/f9HlmOJo98I)
+> 
+> The git repo is [here](https://github.com/theurbanpenguin/git-daemon)
 
 ## Working on the Git Server 
 ```bash
