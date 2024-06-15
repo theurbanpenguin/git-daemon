@@ -6,7 +6,7 @@
 > This will set up the git server in an **unauthenticated mode**. This is useful
 > perhaps for a public read-only git server or a private departmental git server
 > without access to a public network. You will also learn how to configure 
-> both read-write access and how to export repositories globally ot selectively.
+> both read-write access and how to export repositories globally or selectively.
 > 
 > The demo uses to Rocky Linux 8.10 systems but the basis of the operation is
 >  transferable to other Linux systems.
