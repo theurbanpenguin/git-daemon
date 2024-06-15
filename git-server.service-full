@@ -1,0 +1,13 @@
+[Unit]
+Description=Git Daemon Service
+After=network.target
+
+[Service]
+ExecStart=/usr/bin/git daemon --export-all --enable=receive-pack --reuseaddr --base-path=/srv/git --verbose
+Restart=always
+StandardOutput=syslog
+StandardError=syslog
+SyslogIdentifier=git-daemon
+
+[Install]
+WantedBy=multi-user.target
